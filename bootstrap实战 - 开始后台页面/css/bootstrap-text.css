@@ -1,0 +1,19 @@
+body{
+	font-family: "microsoft yahei",sans-serif;
+	padding: 70px;
+}
+/* 头像 */
+.wh64{
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+}
+
+/* 留言部分边距 */
+.mar_t15{
+	margin-top: 15px;
+}
+
+#footer{
+	text-align: center;
+}
