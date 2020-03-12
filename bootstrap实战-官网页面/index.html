@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 配置视窗 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ie8的标准渲染模式 -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap实战案例</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-text.css"/>
+</head>
+<body>
+    <!-- 导航 -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+			<!-- 小屏幕导航按钮和logo -->
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<!-- 小屏幕导航按钮的三根线 -->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="index.html" class="navbar-brand">IT学习</a>
+			</div>
+			<!-- 导航 -->
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#home">首页</a></li>
+					<li><a href="#bbs">论坛</a></li>
+					<li><a href="#">前端开发</a></li>
+					<li><a href="#course">最新课程</a></li>
+					<li><a href="#">移动APP</a></li>
+					<li><a href="#contact">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+    </nav>
+	<!-- 导航 -->
+	
+	<!-- home区域 -->
+	<section id="home">
+		<!-- 给背景加个滤镜 -->
+		<div class="lvjing">
+			<div class="container">
+				<div class="row">		
+					<div class="col-md-10 col-md-offset-1">
+						<h1>bootstrap实战课程等你来战</h1>
+						<p>
+							本套课程适用于:前端开发人员<br>
+							培训技能目标:使用bootstrap框架快速构建响应式网页,快速上手!
+						</p>
+						<!-- 添加属性使其能够使用bootstrap自适应 -->
+						<img src="images/home-logo.jpg" alt="web" class="img-responsive">
+					</div>					
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- home区域 -->
+	
+	<!-- bbs -->
+	<section id="bbs">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="https://www.csdn.net/" target="_blank">
+						<img src="images/csdn-logo_.png"  class="img-responsive">
+						<h3>CSDN</h3>
+						<p>中国专业IT社区CSDN (Chinese Software Developer Network) 创立于1999年，致力于为中国软件开发者提供知识传播、在线学习、职业发展等全生命周期服务。</p>
+					</a>					
+				</div>
+				<div class="col-md-4">
+					<a href="https://www.zhihu.com/signin?next=%2F"  target="_blank">
+						<img src="images/知乎.jpg" class="img-responsive">
+						<h3>知乎</h3>
+						<p>知乎是网络问答社区，连接各行各业的用户。用户分享着彼此的知识、经验和见解，为中文互联网源源不断地提供多种多样的信息。</p>
+					</a>					
+				</div>
+				<div class="col-md-4">
+					<a href="https://juejin.im/" target="_blank">
+						<img src="images/掘金.svg" class="img-responsive">
+						<h3>掘金</h3>
+						<p>掘金是一个帮助开发者成长的社区,是给开发者用的 Hacker News,给设计师用的 Designer News,和给产品经理用的 Medium。</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- bbs -->
+	
+	<!-- course -->
+	<section id="course">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>最新课程</h2>
+				</div>
+				<div class="col-md-3">
+					<div class="course">
+						<img src="images/home-logo.jpg" class="img-responsive">
+						<a href="" target="_blank" class="btn btn-primary">
+							加入学习
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="course">
+						<img src="images/home-logo.jpg" class="img-responsive">
+						<a href="" target="_blank" class="btn btn-primary">
+							加入学习
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="course">
+						<img src="images/home-logo.jpg" class="img-responsive">
+						<a href="" target="_blank" class="btn btn-primary">
+							加入学习
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="course">
+						<img src="images/home-logo.jpg" class="img-responsive">
+						<a href="" target="_blank" class="btn btn-primary">
+							加入学习
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- course -->
+	
+	<!-- contact -->
+	<section id="contact">
+		<div class="lvjing">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h2><span class="glyphicon glyphicon-send"></span>&nbsp;联系我们</h2>
+						<p>联系我们</p>
+						<address>
+							<p><span class="glyphicon glyphicon-home"></span>&nbsp;地址：山东省济南市</p>
+							<p><span class="glyphicon glyphicon-earphone"></span>&nbsp;电话：18453799133/p>
+							<p><span class="glyphicon glyphicon-envelope"></span>&nbsp;邮箱：1343480458@qq.com</p>
+						</address>
+					</div>
+					<div class="col-md-6">
+						<form action="#" method="post">
+							<div class="col-md-6">
+								<input type="text" class="form-control" placeholder="您的姓名"/>
+							</div>
+							<div class="col-md-6">
+								<input type="email" class="form-control" placeholder="您的邮箱"/>
+							</div>
+							<div class="col-md-12">
+								<input type="text" class="form-control" placeholder="标题"/>
+							</div>
+							<div class="col-md-12">
+								<textarea class="form-control" placeholder="留言内容" rows="4"></textarea>
+							</div>
+							<div class="col-md-8">
+								<input type="submit" class="form-control" value="提交"/>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- contact -->
+	
+	<!-- footer -->
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>@2020</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer -->
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
